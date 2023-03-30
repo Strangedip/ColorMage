@@ -1,6 +1,6 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/Strangedip/ColorMage/pull/73 -->
 <a name="readme-top"></a>
-
+## overview
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -29,7 +29,7 @@
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#overview">Usage</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -40,7 +40,7 @@
 
 
 <!-- INSTALLATION & USAGE -->
-##usage
+## usage
 * Clone the repo
   ```sh
    https://github.com/Strangedip/ColorMage.git
