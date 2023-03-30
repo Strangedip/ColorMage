@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: "montserrat", sans-serif !important;
+}
+
+
+
+body {
+    margin: 0px, 0px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.my-container {
+    width: 99vw;
+    height: 100vh;
+
+}
+
+.container {
+    width: 99vw;
+    height: 100vh;
+
+}
+
+#error {
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+.container-navbar {
+    padding: 25px 0px 25px 0px;
+    display: flex;
+    width: 99vw;
+    justify-content: right;
+    overflow: hidden;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Calligraffitti&display=swap');
+
+.colormage {
+    position: absolute;
+    margin-left: 20px;
+    padding: 10px 20px;
+    cursor: default;
+
+    font-family: 'Calligraffitti', cursive;
+    font-weight: 700;
+    font-size: 35px;
+    text-shadow: -15px 5px 20px #ced0d3;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #F9f1cc;
+    text-shadow: 2px 2px 0px #FFB650,
+        4px 4px 0px #FFD662,
+        6px 6px 0px #FF80BF,
+        8px 8px 0px #EF5097,
+        10px 10px 0px #6868AC,
+        12px 12px 0px #90B1E0;
+}
+
+
+
+.text {
+    color: white;
+    background: none;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 35px 10px 35px;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+
+.bw {
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 55px;
+}
+
+.bw:hover,
+.mainSec:hover {
+    text-shadow: 0px 0px 5px #FF0000;
+
+}
+
+.text:hover {
+    border-radius: 35px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition-duration: 0.5s;
+}
+
+.active {
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition-duration: 0.5s;
+
+}
+
+.mainSec {
+    color: white;
+    margin: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 55px;
+}
+
+
+.upload-button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary,
+.btn,
+.form-control {
+    transition-duration: 0.5s;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+button {
+    transition-duration: 0.5s;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.row {
+    transition-duration: 0.5s;
+    padding: 10px;
+
+}
+
+#initial-img img,
+#final-img img {
+    transition-duration: 0.5s;
+    width: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#initial-img img:hover,
+#final-img img:hover {
+    cursor: pointer;
+    transition-duration: 0.5s;
+    width: 850px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 10px 24px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#initial-img,
+#final-img {
+    padding: 30px;
+}
+
+.download-button {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.download-button a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-primary:hover {
+    transition-duration: 0.2s;
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 5px #2196f3, 0 0 10px #2196f3, 0 0 15px #2196f3;
+}
+
+.services {
+    margin: 70px 100px;
+    background-color: white;
+    text-align: center;
+}
+
+.services h1 {
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid #3498db;
+    font-size: 30px;
+    color: black;
+    padding-bottom: 10px;
+    margin-top: 100px;
+    transition-duration: 0.5s;
+}
+
+.services h1:hover {
+    transition-duration: 0.5s;
+    font-size: 35px;
+}
+
+.cen {
+    max-width: 1500px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.service {
+    display: inline-block;
+    width: calc(90% / 3);
+    margin: 0 -8px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.service:hover {
+    width: calc(100% / 3);
+    background: #ddd;
+}
+
+.service i {
+    color: #3498db;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.service h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.service p {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 800px) {
+    .service {
+        width: 50%;
+    }
+
+    .contact1 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .service {
+        width: 100%;
+    }
+
+    .contact1 {
+        width: 100%;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+}
+
+.contacts {
+    margin: 70px 100px;
+    text-align: center;
+    background-color: white;
+}
+
+.contacts h1 {
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid #3498db;
+    font-size: 40px;
+    padding-bottom: 10px;
+    margin-top: 80px;
+}
+
+.contacts h1:hover {
+    transition-duration: 0.5s;
+    font-size: 45px;
+}
+
+.cen {
+    max-width: 1200px;
+    margin: 50px auto;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.contact1 {
+    display: inline-block;
+    width: calc(90% / 3);
+    margin: 0 -8px;
+    padding: 20px;
+    color: black;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact1:hover {
+    width: calc((110% / 3));
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.contact1 i {
+    color: #3498db;
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+.contact1 h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+    font-weight: bold;
+}
+
+.contact1 p {
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+}

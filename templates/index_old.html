@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css')}}">
+</head>
+<body>
+    <div class="container">
+        <div class="container-navbar">
+            <nav>
+                <a href="/" class="text home active">Home</a>
+                <a href="about" class="text about">About</a>
+                <a href="contact" class="text contact">Contact</a>
+            </nav>
+        </div>
+
+        <div class="mainPage">
+            <div class="mainSec">
+                <h1> Convert your B&W image to Colorful image </h1>
+            </div>
+            <div class="fileInput">
+                <div>Upload Here</div>
+                <div>
+                    <input class="inp" type="file" name="filename" accept="image/*">
+                </div>
+            </div>
+            <div class="upload-button">
+                <button id="mybutton"onclick="">Upload</button>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
