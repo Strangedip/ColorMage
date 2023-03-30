@@ -31,6 +31,7 @@
   <summary>Table of Contents</summary>
     <li><a href="#overview">Overview</a></li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#screenshots">Scareenshots</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
 
@@ -58,7 +59,15 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+<!-- SCREENSHOTS -->
+## screenshots
+<a href="https://github.com/Strangedip/ColorMage">
+    <img src="images/website.png" alt="website">
+</a>
+ 
+<a href="https://github.com/Strangedip/ColorMage">
+    <img src="images/working.png" alt="working">
+</a>
 
 
 <!-- CONTRIBUTING -->
