@@ -198,9 +198,14 @@ button {
 }
 
 .services {
+    justify-content: center;
     margin: 50px 100px;
     background-color: white;
+    height: 800px;
     text-align: center;
+    transition-duration: 1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .services h1 {
@@ -296,6 +301,10 @@ body {
     margin: 70px 100px;
     text-align: center;
     background-color: white;
+    height: 600px;
+    text-align: center;
+    transition-duration: 1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     
 }
 
