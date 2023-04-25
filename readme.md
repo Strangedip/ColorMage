@@ -49,7 +49,8 @@
 * Download the required models from <a href="https://drive.google.com/drive/folders/1cLuBXxMyccOnwL_tDTItjDaoLa0EBpBw?usp=sharing"><strong>Here</strong></a> and save it in models folder 
 * install Python version 3.9+ from official website
 * Create a virtual environment (if want)
-* install requirements file using commad :
+* Change the path of the model and result upload folders in app.py
+* install requirements file using command and required packages:
   ```sh
   pip install -r requirements.txt
   ```
